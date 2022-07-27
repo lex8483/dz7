@@ -5,8 +5,7 @@ public class Main {
         String firstName = "Ivan";
         String middleName = "Ivanovich";
         String lastName = "Ivanov";
-        String fullName = lastName + firstName + middleName;
-        fullName = fullName.replace("I", " I");
+        String fullName = lastName + " " + firstName + " " + middleName;
         System.out.println(fullName);
         fullName = fullName.toUpperCase(Locale.ROOT);
         System.out.println(fullName);
